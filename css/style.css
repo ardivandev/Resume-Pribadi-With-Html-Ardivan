@@ -1,0 +1,74 @@
+body {
+  padding: 1rem;
+  text-align: center;
+}
+
+hr {
+  width: 100%;
+  max-width: 600px;
+}
+
+h2 {
+  color: #1fbcc4;
+}
+
+h2 span {
+  color: black;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 1rem;
+}
+
+section {
+  width: 100%;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+p,
+h3 {
+  text-align: justify;
+}
+
+.bidang-keahlian {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.skills,
+.skills tr,
+.skills th,
+.skills td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.skills th,
+.skills td {
+  padding: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  resize: none;
+}
+
+button {
+  width: 100%;
+  padding: 0.5rem;
+  cursor: pointer;
+}

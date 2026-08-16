@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Pribadi | Ardivan</title>
+
+    <meta name="description" content="Resume Pribadi Ardivan Menggunakan HTML" />
+    <meta name="author" content="Ardivan Nur Raihan Rahman" />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:title" content="Resume Pribadi Ardivan" />
+    <meta property="og:description" content="Resume Pribadi Ardivan Menggunakan HTML" />
+    <meta property="og:image" content="assets/favicon.svg" />
+    <meta property="og:url" content="" />
+
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Name, Bidang Pekerjaan, Foto -->
+    <header>
+      <h1>Resume Pribadi</h1>
+
+      <hr />
+
+      <hgroup>
+        <h2>
+          Hi Semuanya 👋, Saya<br />
+          <span>Ardivan Nur Raihan Rahman</span>
+        </h2>
+        <p class="bidang-keahlian">Front-End Developer | Quality Assurance Tester</p>
+      </hgroup>
+
+      <img src="assets/foto-profile.png" alt="Foto Profile" />
+    </header>
+
+    <!-- Tentang Saya, Education, Experience, Skills, Projects, & Formulir Contact-->
+    <main>
+      <section>
+        <h2>Tentang Saya</h2>
+
+        <p>
+          Saya Ardivan Nur Raihan Rahman, seorang Front-End Developer dan Quality Assurance Tester
+          dengan latar belakang pendidikan dari SMK Negeri 13 Bandung. Saya sangat tertarik dalam
+          membangun antarmuka web yang responsif dan ramah pengguna, serta memastikan setiap fitur
+          berfungsi sebagaimana mestinya melalui pengujian manual dan otomatis. Peran ganda ini
+          telah melatih saya untuk berpikir dari dua perspektif sekaligus: sebagai pembangun fitur,
+          dan sebagai penguji yang mencari celah sebelum produk sampai ke penggunanya.
+        </p>
+      </section>
+
+      <section>
+        <h2>Pendidikan</h2>
+        <div>
+          <h3>SMK Negeri 13 Bandung</h3>
+          <p>
+            <b>Jurusan Rekayasa Perangkat Lunak</b> <br />
+            Tahun: 2023 - 2026
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Pengalaman</h2>
+        <h3>Quality Assurance Tester Intern</h3>
+        <p>
+          <b>PT Neuronworks Indonesia - Bandung</b> <br />
+          November 2025 - April 2026
+        </p>
+        <p>
+          Memperoleh pengalaman langsung dalam Quality Assurance Tester, termasuk menganalisis
+          persyaratan pengujian, merancang test scenarios dan test cases, menjalankan pengujian UI
+          dan API, serta mendokumentasikan bug untuk tim pengembang. Berhasil lulus Penilaian
+          Kompetensi QA Tester dengan skor akhir 89,00.
+        </p>
+      </section>
+
+      <section>
+        <h2>Keterampilan</h2>
+        <table class="skills">
+          <thead>
+            <tr>
+              <th scope="col">Front-End Developer</th>
+              <th scope="col">Quality Assurance Tester</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                Html5, CSS3, JavaScript, Bootstrap, Tailwind CSS, Sass, Jquery, Alpine Js, React Js
+              </td>
+              <td>Manual Testing, Postman, Playwright</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Kontak Saya</h2>
+        <form action="" method="post">
+          <table>
+            <tr>
+              <td><label for="name">Name: </label></td>
+              <td>
+                <input type="text" id="name" name="name" placeholder="John" required />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="email">Email: </label></td>
+              <td>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="example@gmail.com"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="pesan">Pesan: </label></td>
+              <td>
+                <textarea name="pesan" id="pesan" required></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><button type="submit">Kirim</button></td>
+            </tr>
+          </table>
+        </form>
+      </section>
+    </main>
+
+    <br />
+    <hr />
+
+    <!-- Copyright & Link Social Media -->
+    <footer>
+      <section>
+        <h3>&copy; Ardivan Nur Raihan Rahman | 2026</h3>
+        <p>
+          <a href="https://github.com/ardivandev">Github</a> |
+          <a href="https://www.linkedin.com/in/ardivannrr/">Linkedin</a> |
+          <a href="https://www.instagram.com/ardivannrr/">Instagram</a>
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>
