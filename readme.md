@@ -5,6 +5,6 @@
 1. Html5 🧩
 2. A little CSS3 🎨
 
-## Auhtor
+## Author
 
 👨‍💻 Ardivan Nur Raihan Rahman
