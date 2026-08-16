@@ -2,8 +2,8 @@
 
 ## Tech
 
-1. Html5
-2. A little CSS3
+1. Html5 🧩
+2. A little CSS3 🎨
 
 ## Auhtor
 
